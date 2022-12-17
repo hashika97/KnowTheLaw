@@ -1,11 +1,11 @@
-import React, {useContext} from 'react'
+import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 import SignIn from './SignIn'
 import SignUp from './SignUp'
 import Home from './Home'
 import NotFound from './NotFound'
-import Categories from './Categories'
-import {GlobalState} from '../../GlobalState'
+import Categories from './Category/Categories'
+
 
 
 

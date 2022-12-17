@@ -1,0 +1,19 @@
+.background{
+    position: relative;
+    border-width: 10px;
+    border-style: solid;
+    border-color: maroon ;
+    
+  }
+  .text-on-image{
+    position: absolute;
+    bottom: 80%;
+    left: 5%;
+    color: white;
+  }
+  .backgroundimage img{
+   
+    height: 620px;
+    width: auto;
+   
+  }
