@@ -3,7 +3,7 @@
     border-width: 10px;
     border-style: solid;
     border-color:black ;
-    background-color: rgb(65, 64, 64);
+    background-color: black;
     
   }
   .text-on-image{
@@ -21,72 +21,41 @@
    
   }
 
-  #features{
-    padding: 7% 15%;
-  }
-  .feature-box{
-  text-align: center;
-  padding: 5%;
-  }
-  
-  .box1{
-    position: absolute;
-    right: 70%;
-    bottom: 20%;
-    height: 200px;
-    width: 200px;
-    background-color:white;
-    opacity: 50%;
-   
-  }
-  .box2{
-    position: absolute;
-    right: 54%;
-    bottom: 20%;
-    height: 200px;
-    width: 200px;
-    background-color:white;
-   opacity: 50%;
-  }
-  .box3{
-    position: absolute;
-    right: 38%;
-    bottom: 20%;
-    height: 200px;
-    width: 200px;
-    background-color:white;
-   opacity: 50%;
-  }
-  .box4{
-    position: absolute;
-    right: 22%;
-    bottom: 20%;
-    height: 200px;
-    width: 200px;
-    background-color:white;
-    opacity: 60%;
-  }
-  .text-on-box1{
-    position: absolute;
-    right: 75%;
-    bottom: 40%;
-    color: black; 
-  }
-  .text-on-box2{
-    position: absolute;
-    right: 59%;
-    bottom: 40%;
-    color: black; 
-  }
-  .text-on-box3{
-    position: absolute;
-    right: 43%;
-    bottom: 40%;
-    color: black; 
-  }
-  .text-on-box4{
-    position: absolute;
-    right: 27%;
-    bottom: 40%;
-    color: black; 
-  }
+  .intro-block
+{
+	position: relative;
+	background-color: white;
+	margin:50px 0px 0px;
+	text-align: center;
+	padding: 70px 25px 40px;
+}
+
+.intro-block:hover , intro-block.active
+{
+	background: yellow;
+}
+
+.intro-block:hover
+{
+	transition: 0.6s ease;
+		-webkit-transition: 0.6s ease;
+			-moz-transition: 0.6s ease;
+				-ms-transition: 0.6s ease;
+					-o-transition: 0.6s ease;
+
+}
+
+.intro-block h3
+{
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.intro-block:hover h3, intro-block:hover p
+{
+color: white;
+}
+
