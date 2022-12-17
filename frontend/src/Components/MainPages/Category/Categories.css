@@ -8,7 +8,7 @@
   }
   .text-on-image{
     position: absolute;
-    bottom: 55%;
+    bottom: 70%;
     left: 60%;
     color: white;
     font-size:larger;
@@ -32,7 +32,7 @@
 
 .intro-block:hover , intro-block.active
 {
-	background: yellow;
+	background: red;
 }
 
 .intro-block:hover
@@ -58,4 +58,10 @@
 {
 color: white;
 }
-
+.more{
+  position: relative;
+	background-color: white;
+	margin:50px 0px 0px;
+	text-align: center;
+	padding: 70px 25px 40px;
+}

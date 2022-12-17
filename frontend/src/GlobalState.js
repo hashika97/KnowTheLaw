@@ -15,7 +15,7 @@ export const DataProvider = ({children}) =>{
         const firstLogin = localStorage.getItem('firstLogin')
         if(firstLogin){
             const refreshToken = async () =>{
-                const res = await axios.get('/owner/refresh_token')
+                const res = await axios.get('/user/refresh_token')
         
                 setToken(res.data.accesstoken)
     
@@ -34,7 +34,7 @@ export const DataProvider = ({children}) =>{
         categoriesAPI: CategoriesAPI()
     }
     return (
-        <GlobalState.Provider value={"Value"}>
+        <GlobalState.Provider value={state}>
             {children}
         </GlobalState.Provider>
     )

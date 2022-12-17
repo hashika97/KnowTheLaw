@@ -15,34 +15,38 @@ export default function Categories() {
             <h3>We approach each problem with three essential elements:<br/><u>Strategic thinking</u><br/><u>Creative solusions</u><br/><u>Contacting lawyers</u></h3>
           </div>
           
-<section class="intro-area white" id="intro">
-  <div class="row">
-	<div class="col-sm-4">
-		<div class="intro-block">
+<section className="intro-area">
+  <div className='container'>
+  <div className="row">
+	<div className="col-sm-4">
+		<div className="intro-block">
 			<h3>Car Accident</h3>
+    </div>
+  </div>
 
-	</div>
-</div>
-
-<div class="col-sm-4">
-		<div class="intro-block">
+  <div className="col-sm-4">
+		<div className="intro-block">
 			<h3>Child Welfare</h3>
-	      </div>
-             </div>
+	  </div>
+  </div>
 
-<div class="col-sm-4">
-		<div class="intro-block">
+  <div className="col-sm-4">
+		<div className="intro-block">
 			<h3>Family Laws</h3>
-	     </div>
-          </div>
-          </div>
+	  </div>
+  </div>
+</div>
+  </div>
 </section>
+<section className='more'>
          <div>
            <div>
            <li className="header.font"><Link to="/login" >SignIn</Link></li>
            <li className="header.font"><Link to="/register">SignUp</Link></li> 
          </div>
          </div>
+</section>
+         
          </div>
     )
 }
