@@ -2,18 +2,91 @@
     position: relative;
     border-width: 10px;
     border-style: solid;
-    border-color: maroon ;
+    border-color:black ;
+    background-color: rgb(65, 64, 64);
     
   }
   .text-on-image{
     position: absolute;
-    bottom: 80%;
-    left: 5%;
+    bottom: 55%;
+    left: 60%;
     color: white;
+    font-size:larger;
   }
   .backgroundimage img{
    
-    height: 620px;
+    height: 580px;
     width: auto;
+    opacity: 90%;
    
+  }
+
+  #features{
+    padding: 7% 15%;
+  }
+  .feature-box{
+  text-align: center;
+  padding: 5%;
+  }
+  
+  .box1{
+    position: absolute;
+    right: 70%;
+    bottom: 20%;
+    height: 200px;
+    width: 200px;
+    background-color:white;
+    opacity: 50%;
+   
+  }
+  .box2{
+    position: absolute;
+    right: 54%;
+    bottom: 20%;
+    height: 200px;
+    width: 200px;
+    background-color:white;
+   opacity: 50%;
+  }
+  .box3{
+    position: absolute;
+    right: 38%;
+    bottom: 20%;
+    height: 200px;
+    width: 200px;
+    background-color:white;
+   opacity: 50%;
+  }
+  .box4{
+    position: absolute;
+    right: 22%;
+    bottom: 20%;
+    height: 200px;
+    width: 200px;
+    background-color:white;
+    opacity: 60%;
+  }
+  .text-on-box1{
+    position: absolute;
+    right: 75%;
+    bottom: 40%;
+    color: black; 
+  }
+  .text-on-box2{
+    position: absolute;
+    right: 59%;
+    bottom: 40%;
+    color: black; 
+  }
+  .text-on-box3{
+    position: absolute;
+    right: 43%;
+    bottom: 40%;
+    color: black; 
+  }
+  .text-on-box4{
+    position: absolute;
+    right: 27%;
+    bottom: 40%;
+    color: black; 
   }
